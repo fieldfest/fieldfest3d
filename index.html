@@ -16,9 +16,11 @@ body {
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
 	background-color: #000000;
+	background-image: url(1920background.png);
+	background-repeat: repeat;
 }
 .oneColLiqCtrHdr #container {
-	width: 80%;  /* this will create a container 80% of the browser width */
+	width: 1200px;  /* this will create a container 80% of the browser width */
 	background: #000000;
 	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
 	border: 1px solid #000000;
@@ -44,6 +46,15 @@ body {
 	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
 	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
+.style1 {color: #FF00FF}
+.style2 {color: #00FFFF}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style4 {
+	color: #FF00FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
 -->
 </style></head>
 
@@ -51,14 +62,35 @@ body {
 
 <div id="container">
 
-    <h1 align="center"><img src="700x143header.png" width="700" height="193" /></h1>
+    <h1 align="center"><img src="700.png" width="700" height="128" /></h1>
 
   <div id="mainContent">
-    <h1 align="center"><a href="https://www.ebay.co.uk/str/fieldfest3d" target="_blank"><img src="300px-EBay_logo.svg.png" alt="ebay" width="300" height="120" /></a></h1>
-    <p align="center"><a href="https://www.etsy.com/uk/shop/Fieldfest3D" target="_blank"><img src="Etsy_logo_lg_rgb.png" alt="Etsy" width="300" height="143" /></a></p>
-    <p align="center"><a href="https://www.redbubble.com/people/Fieldfest/shop" target="_blank"><img src="512px-Redbubble_logo.svg.png" alt="RedBubble" width="512" height="104" /></a></p>
-    <p align="center"><a href="https://fieldfest3d.teemill.com/" target="_blank"><img src="teemill.png" alt="TeeMill" width="429" height="117" /></a></p>
-    	  
+    <h1 align="center" class="style1">&nbsp;</h1>
+    <h1 align="center" class="style1">My Etsy and Ebay Stores</h1>
+    <table border="10" align="center" cellpadding="10" cellspacing="10" bordercolor="#000000" bgcolor="#000000">
+
+      <tr>
+        <td><a href="https://www.etsy.com/uk/shop/Fieldfest3D" target="_blank"><img src="Etsy_logo_lg_rgb.png" alt="Etsy" width="300" height="143" /></a></td>
+        <td><a href="https://www.ebay.co.uk/str/fieldfest3d" target="_blank"><img src="300px-EBay_logo.svg.png" alt="ebay" width="300" height="120" /></a></td>
+      </tr>
+    </table>
+    <h1 align="center" class="style2"> Clothing Designs</h1>
+    <table border="10" align="center" cellpadding="10" cellspacing="10" bordercolor="#000000" bgcolor="#000000">
+      <tr>
+        <td><a href="https://fieldfest3d.teemill.com/" target="_blank"><img src="teemill.png" alt="TeeMill" width="429" height="117" /></a></td>
+        <td><div align="center"><a href="https://www.redbubble.com/people/Fieldfest/shop" target="_blank"><img src="512px-Redbubble_logo.svg.png" alt="RedBubble" width="512" height="104" /></a></div></td>
+      </tr>
+    </table>
+    <h1 align="center"><span class="style4">Social Media For Latest News and Videos</span></h1>
+    <table border="10" align="center" cellpadding="10" cellspacing="10" bordercolor="#000000" bgcolor="#000000">
+      <tr>
+        <td><a href="https://www.youtube.com/channel/UCRPYmWF5n0KXIbUp4RvUpiQ" target="_blank"><img src="yt.png" width="100" height="100"></a></td>
+        <td><a href="https://www.instagram.com/fieldfest3d/" target="_blank"><img src="insta.png" width="100" height="100"></a></td>
+        <td><a href="https://www.facebook.com/Fieldfest3D" target="_blank"><img src="fb.png" width="100" height="100"></a></td>
+      </tr>
+    </table>
+    <p align="center">&nbsp;</p>
+    <p>&nbsp;</p>
   <!-- end #mainContent --></div>
   <div id="footer"> 
     <div id="sfcxn7d25zmf6usc9he2ysrfapyledjm5yx"></div>
